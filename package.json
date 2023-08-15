@@ -49,7 +49,6 @@
     "// ---TESTING TEMPLATE---": "",
     "test:internals": "yarn run test:extract-messages && yarn run test:generators",
     "test:extract-messages": "jest --config=internals/extractMessages/jest.config.js",
-    "verify-startingTemplate-changes": "ts-node ./internals/scripts/verify-startingTemplate-changes.ts",
     "test:coverage": "yarn run test --watchAll=false --coverage",
     "test:cra": "yarn run create:cra-app && cd generated-cra-app && yarn run test:generators && yarn run lint && yarn run checkTs && yarn run cleanAndSetup && yarn run lint && yarn run checkTs",
     "// ---BUILDING TEMPLATE---": "",
@@ -89,6 +88,8 @@
     }
   },
   "dependencies": {
+    "@headlessui/react": "1.7.16",
+    "@heroicons/react": "2.0.18",
     "@reduxjs/toolkit": "1.8.5",
     "fontfaceobserver": "2.3.0",
     "i18next": "21.9.2",

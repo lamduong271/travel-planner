@@ -24,9 +24,13 @@ export const GlobalStyle = createGlobalStyle`
     line-height: 1.5em;
   }
 
-  input, select, button {
-    font-family: inherit;
+  input, select {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: inherit;
+  }
+
+  button {
+    font-family: inherit;
   }
 
   .icon {

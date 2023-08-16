@@ -25,7 +25,7 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   input, select {
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: inherit;
   }
 
